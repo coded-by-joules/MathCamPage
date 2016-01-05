@@ -1,0 +1,56 @@
+div.hedr {
+  height: 400px;
+  overflow: hidden;
+  margin-top: -20px;
+}
+
+img[alt='phone'] {
+	width: 347px;
+	margin: auto;
+}
+
+img.desc {
+	width: 344px;
+	margin: auto;
+	box-shadow: 1px 1px 20px black;
+}
+
+div.contentdiv {
+  padding-top: 40px;
+  padding-bottom: 40px;  
+}
+
+div.firstCh {
+	margin-top: -30px;
+}
+
+div.blue {
+	background-color: #0B3E67;
+	color: white;
+}
+
+div.footer {
+  margin-bottom: 0px;
+}
+
+img[alt='github'] {
+	width: 350px;
+}
+
+h3.centerH3 {
+  text-align: center;
+}
+
+@media screen and (max-width: 766px) {
+	div.hedr {
+		height: 500px;
+	}
+
+	div.phoneCont {
+		text-align: center;
+	}
+
+	div.hedr {
+		margin-top: -20px;
+	}
+}

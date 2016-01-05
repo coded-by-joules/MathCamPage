@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>MathCam</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- header part-->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">MathCam</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home content -->
+    <div class="jumbotron hedr">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 phoneCont">
+            <h1>MathCam</h1>
+            <p>A new way to do Math on your mobile phone.</p>
+            <p><a class="btn btn-primary btn-lg" href="#" data-toggle="modal" data-target="#downloadApp" role="button">Download for Android (4.4+)</a></p>
+          </div>
+          <div class="col-sm-6">
+            <img src="images/phone.png" class="img-responsive" alt="phone"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contentdiv blue firstCh">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-xs-12 phoneCont">
+            <h2>Capture and Convert</h2>
+            <p>Take a photo of a number and let the app do the conversion.</p>
+          </div>
+          <div class="col-sm-6 col-xs-12">
+            <img src="images/scan.png" class="img-responsive img-rounded desc" alt="Capture"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contentdiv">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-xs-12">
+              <img src="images/sol.png" class="img-responsive img-rounded desc" alt="Learn"/>
+            </div>
+            <div class="col-sm-6 col-xs-12 phoneCont">
+              <h2>Learn how it is solved</h2>
+              <p>View the steps on how a certain computation is solved.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contentdiv blue">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-xs-12 phoneCont">
+            <h2>Equation Support</h2>
+            <p>You can input mathematical equations and it will be processed automatically!</p>
+          </div>
+          <div class="col-sm-6 col-xs-12">
+            <img src="images/equ.png" class="img-responsive img-rounded desc" alt="Flex"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron footer">
+      <div class="container">
+        <h3 class="centerH3">View the source at <a href="https://github.com/phoenixtwister/mathcam"><img src="images/github.png" alt="github" /></a></h3>
+      </div>
+    </div>
+
+    <div class="modal fade" role="dialog" id="downloadApp">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Thank you for downloading MathCam</h4>
+          </div>
+          <div class="modal-body">
+            <p><a href="#">Click here</a> if the download doesn't start automatically.</p>
+            <p><b>Installation Steps:</b></p>
+            <ol>
+              <li>If you are using desktop right now, transfer the downloaded file to your Android phone.</li>
+              <li>Open the downloaded file (apk).</li>
+              <li>Wait for installation to finish.</li>
+            </ol>
+            <p><b>Note:</b> Make sure you have enabled <b>"Unknown Sources"</b> setting in <b>Settings > Security.</b></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Got It</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
