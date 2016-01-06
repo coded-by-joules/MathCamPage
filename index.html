@@ -26,6 +26,9 @@
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">MathCam</a>
+          <p class="navbar-text navbar-right">
+            <span id="dlcount"></span> <span class="glyphicon glyphicon-save"></span>
+          </p>
         </div>
       </div>
     </nav>
@@ -37,7 +40,7 @@
           <div class="col-sm-6 phoneCont">
             <h1>MathCam</h1>
             <p>A new way to do Math on your mobile phone.</p>
-            <p><a class="btn btn-primary btn-lg" href="#" data-toggle="modal" data-target="#downloadApp" role="button">Download for Android (4.4+)</a></p>
+            <p><a class="btn btn-primary btn-lg" href="#" data-role="button" id='dL'>Download for Android (4.4+)</a></p>
           </div>
           <div class="col-sm-6">
             <img src="images/phone.png" class="img-responsive" alt="phone"/>
@@ -90,7 +93,8 @@
 
     <div class="jumbotron footer">
       <div class="container">
-        <h3 class="centerH3">View the source at <a href="https://github.com/phoenixtwister/mathcam"><img src="images/github.png" alt="github" /></a></h3>
+        <h3 class="centerH3">View the source at </h3>
+        <a href="https://github.com/phoenixtwister/mathcam"><img src="images/github.png" class="img-responsive" alt="github" /></a>
       </div>
     </div>
 
@@ -102,7 +106,7 @@
             <h4 class="modal-title" id="myModalLabel">Thank you for downloading MathCam</h4>
           </div>
           <div class="modal-body">
-            <p><a href="download.php">Click here</a> if the download doesn't start automatically.</p>
+            <p><a href="https://www.dropbox.com/s/4ezp4r7emy876o5/MathCam.apk?dl=1">Click here</a> if the download will not start automatically.</p>
             <p><b>Installation Steps:</b></p>
             <ol>
               <li>If you are using desktop right now, transfer the downloaded file to your Android phone.</li>
@@ -122,5 +126,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

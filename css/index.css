@@ -29,12 +29,15 @@ div.blue {
 	color: white;
 }
 
+
+
 div.footer {
   margin-bottom: 0px;
 }
 
 img[alt='github'] {
 	width: 350px;
+	margin: auto;
 }
 
 h3.centerH3 {
